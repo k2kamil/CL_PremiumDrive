@@ -1,0 +1,146 @@
+
+
+.info {
+  width: 800px;
+  margin: 40px auto;
+  margin-top: 80px;
+  font-family: Montserrat;
+  font-size: 16px;
+
+  p {
+    margin: 12px 0;
+    width: 500px;
+    font-size: 12px;
+    text-align: justify;
+  }
+}
+
+.filters {
+  display: flex;
+  list-style: none;
+  padding: 0;
+
+  &_item {
+      border: 2px solid #101010;
+  }
+
+  &_item:not(:last-child) {
+      border-right: none;
+  }
+
+    &_button {
+      font-family: Montserrat;
+      font-size: 10px;
+      font-weight: 700;
+      background: #1dd1a1;
+      padding: 10px 25px;
+      border: none;
+      color: #101010;
+
+    &:hover {
+      cursor: pointer;
+      background: #101010;
+      color: #1dd1a1;
+    }
+
+    &--active {
+      background: #101010;
+      color: #1dd1a1;
+    }
+  }
+}
+
+
+
+   .products {
+     width: 800px;
+     margin: 60px auto;
+     display: flex;
+     justify-content: space-between;
+
+   }
+
+.card {
+  display: grid;
+  grid-template-columns: 240px;
+  grid-template-rows: 170px 100px;
+  grid-template-areas: "image" "text";
+
+  font-family: Montserrat;
+  border-radius: 18px;
+  background: #FFFFFF;
+
+  text-align: center;
+  border: 2px solid #101010;
+}
+
+.card-image1 {
+  background: url("../../assets/black-bmw.jpg");
+  grid-area: image;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+.card-image2 {
+  background: url("../../assets/mini.jpg");
+  grid-area: image;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+.card-image3 {
+  background: url("../../assets/jaguar.jpg");
+  grid-area: image;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+.card-image4 {
+  background: url("../../assets/lambo.jpg");
+  grid-area: image;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+.card-image5 {
+  background: url("../../assets/lexus.jpg");
+  grid-area: image;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+.card-image6 {
+  background: url("../../assets/black-bmw.jpg");
+  grid-area: image;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+.card-text {
+  grid-area: text;
+  margin: 10px;
+}
+
+.card-button {
+  margin: 15px;
+  padding: 5px;
+  background: #1dd1a1;
+  border: 2px solid #101010;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 10px;
+
+&:hover {
+   cursor: pointer;
+   background: #101010;
+   color: #1dd1a1;
+ }
+}
+
+

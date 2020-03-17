@@ -1,0 +1,114 @@
+
+.contact {
+  margin: 100px auto;
+  margin-bottom: 40px;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+}
+
+.client-data {
+  font-family: Montserrat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  width: 350px;
+  height: 350px;
+}
+
+.map-contact {
+  margin: 10px;
+  width: 350px;
+  height: 350px;
+  background: #101010;
+  border: 2px solid #101010;
+  opacity: 0.8;
+&:hover {
+   opacity: 1;
+   cursor: pointer;
+ }
+}
+
+.form {
+  font-family: Montserrat;
+  margin-top: 20px;
+}
+
+.form-control {
+  font-family: Montserrat;
+  width: 325px;
+  border: none;
+  border-bottom: 2px solid #1dd1a1;
+  outline: none;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+input {
+  height: 35px;
+}
+
+.submit-button {
+  font-family: Montserrat;
+  font-weight: bold;
+  background: #1dd1a1;
+  border: 2px solid #101010;
+  padding: 8px;
+
+&:hover {
+   background: #101010;
+   color: #1dd1a1;
+   cursor: pointer;
+ }
+}
+
+.footer {
+  font-family: Montserrat;
+  font-size: 8px;
+  margin: 0 auto;
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+}
+
+.bottom-logo {
+  margin-top: 70px;
+  margin-right: 100px;
+h1{
+  font-weight: 400;
+  font-size: 18px;
+}
+
+span {
+  color: #1dd1a1;
+  font-weight: bold;
+}
+
+p {
+  margin-left: 5px;
+  font-size: 6px;
+}
+}
+
+.icon-box {
+  display: flex;
+  flex-direction: column;
+  margin-top: 45px;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  border-radius: 50%;
+  justify-content: center;
+
+&:hover {
+   cursor: pointer;
+   color: #1dd1a1;
+ }
+
+i {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+}

@@ -1,0 +1,175 @@
+
+.info {
+  width: 800px;
+  margin: 40px auto;
+  margin-top: 80px;
+  font-family: Montserrat;
+  font-size: 16px;
+
+p {
+  margin: 12px 0;
+  width: 500px;
+  font-size: 12px;
+  text-align: justify;
+}
+}
+
+.filters {
+  display: flex;
+  list-style: none;
+  padding: 0;
+
+&_item {
+   border: 2px solid #101010;
+ }
+
+&_item:not(:last-child) {
+   border-right: none;
+ }
+
+&_button {
+   font-family: Montserrat;
+   font-size: 10px;
+   font-weight: 700;
+   background: #1dd1a1;
+   padding: 10px 25px;
+   border: none;
+   color: #101010;
+
+&:hover {
+   cursor: pointer;
+   background: #101010;
+   color: #1dd1a1;
+ }
+
+&--active {
+   background: #101010;
+   color: #1dd1a1;
+ }
+}
+}
+
+
+.chose {
+  width: 800px;
+  margin: 0px auto;
+  font-family: Montserrat;
+}
+
+.events-l {
+  width: 800px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: left;
+}
+
+.events-r {
+  width: 800px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: right;
+}
+
+.timeline {
+  background: #1dd1a1;
+  width: 100px;
+  height: 2px;
+  align-self: center;
+}
+
+.card-event {
+  display: grid;
+  grid-template-columns: 392px;
+  grid-template-rows: 200px 70px;
+  grid-template-areas: "image" "text";
+
+  font-family: Montserrat;
+  border-radius: 18px;
+  background: #FFFFFF;
+
+  text-align: center;
+  border: 2px solid #1dd1a1;
+
+  opacity: 0.8;
+
+&:hover {
+   cursor: pointer;
+   opacity: 1;
+   border: 2px solid #101010;
+ }
+}
+
+.card-event-description-l {
+  margin-left: 20px;
+  align-self: center;
+  font-family: Montserrat;
+  background: #FFFFFF;
+}
+
+.card-event-description-r {
+  margin-right: 20px;
+  align-self: center;
+  text-align: right;
+  font-family: Montserrat;
+  background: #FFFFFF;
+}
+
+.card-image1-event {
+  background: url("../../assets/Mountainpass.jpg");
+  grid-area: image;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+.card-image2-event {
+  background: url("../../assets/ring.jpg");
+  grid-area: image;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+.card-image3-event {
+  background: url("../../assets/cars.jpg");
+  grid-area: image;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+.card-text-event {
+  grid-area: text;
+  margin: 5px;
+}
+
+.card-button-event {
+  padding: 5px;
+  background: #1dd1a1;
+  border: 2px solid #101010;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 10px;
+.card-button-event {
+  margin: 8px;
+  padding: 5px;
+  background: #1dd1a1;
+  border: 2px solid #101010;
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 10px;
+
+&:hover {
+   cursor: pointer;
+   background: #101010;
+   color: #1dd1a1;
+ }
+}
+
+&:hover {
+   cursor: pointer;
+   background: #101010;
+   color: #1dd1a1;
+ }
+}
+

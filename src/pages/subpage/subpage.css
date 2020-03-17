@@ -1,0 +1,14 @@
+.block {
+  color: white;
+  background-color: red;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+.kartofel {
+  width: 100px;
+  height: 100px;
+  background: url("../../assets/mini.jpg");
+}
