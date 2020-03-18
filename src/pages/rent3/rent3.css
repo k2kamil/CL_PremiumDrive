@@ -58,62 +58,17 @@ p {
   font-weight: bold;
   font-size: 10px;
 
-  &:hover {
+&:hover {
    cursor: pointer;
    background: #101010;
    color: #1dd1a1;
-  }
+ }
 }
 
 .card-image1 {
-  background: url("../../assets/black-bmw.jpg");
+  background: url("../../assets/jaguar.jpg");
   grid-area: image;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   background-size: cover;
-}
-
-.range-slider {
-  position: relative;
-}
-
-#rangeValue {
-  position: absolute;
-  top: 9px;
-  right: 18px;
-  padding: 2px;
-  width: 50px;
-  box-sizing: border-box;
-  background: #1dd1a1;
-  text-align: center;
-}
-
-#rangeValue:before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%) rotate(45deg);
-  left: -5px;
-  width: 10px;
-  height: 10px;
-  background: #1dd1a1;
-}
-
-.range {
-  margin: 20px auto;
-  width: 200px;
-  height: 2px;
-  background: #101010;
-  -webkit-appearance: none;
-  outline: none;
-  border-radius: 2px;
-}
-
-.range::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  width: 14px;
-  height: 14px;
-  border: 1px solid #101010;
-  border-radius: 50%;
-  background: #1dd1a1;
 }
