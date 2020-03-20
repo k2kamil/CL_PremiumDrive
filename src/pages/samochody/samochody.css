@@ -54,13 +54,14 @@
 
    .products {
      width: 800px;
-     margin: 60px auto;
+     margin: 50px auto;
      display: flex;
-     justify-content: space-between;
-
+     justify-content: flex-start;
+     flex-wrap: wrap;
    }
 
 .card {
+  margin: 10px auto;
   display: grid;
   grid-template-columns: 240px;
   grid-template-rows: 170px 100px;
@@ -107,7 +108,7 @@
 }
 
 .card-image5 {
-  background: url("../../assets/lexus.jpg");
+  background: url("../../assets/A45.jpg");
   grid-area: image;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -116,6 +117,30 @@
 
 .card-image6 {
   background: url("../../assets/black-bmw.jpg");
+  grid-area: image;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+.card-image7 {
+  background: url("../../assets/lexus.jpg");
+  grid-area: image;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+.card-image8 {
+  background: url("../../assets/audir8.jpg");
+  grid-area: image;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-size: cover;
+}
+
+.card-image9 {
+  background: url("../../assets/gti-tcr.jpg");
   grid-area: image;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -143,4 +168,7 @@
  }
 }
 
+.hide {
+  display: none;
+}
 

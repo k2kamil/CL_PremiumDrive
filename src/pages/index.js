@@ -53,3 +53,14 @@ arrowRight.addEventListener('click', function () {
 });
 
 startSlide();
+
+//Aktywny link
+const currentLocation = location.href;
+const menuItem = document.querySelectorAll('li');
+const menuLength = menuItem.length;
+
+for (let i = 0; i < menuLength; i++) {
+  if(menuItem[i].href === currentLocation) {
+    menuItem[i].className = "active";
+  }
+}

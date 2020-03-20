@@ -76,7 +76,7 @@ p {
 }
 
 .card-image1 {
-  background: url("../../assets/black-bmw.jpg");
+  background: url("../../assets/mini.jpg");
   grid-area: image;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;

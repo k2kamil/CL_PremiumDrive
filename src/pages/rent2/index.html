@@ -11,7 +11,7 @@
   <header>
     <div class="inner-header">
       <div class="logo-container">
-        <h1>Premium<span>Drive</span></h1>
+        <a href="/"><h1>Premium<span>Drive</span></h1></a>
       </div>
 
       <nav>
@@ -29,29 +29,60 @@
     </p>
   </div>
 
-  <div class="rent">
-    <div class="rent-car">
-      <div class="card-image1"></div>
-      <div class="car-name">
-        <h4>BMW M4 Competition</h4>
+  <div class="reservation-container">
+    <div class="rent">
+      <div class="rent-car">
+        <div class="card-image1"></div>
+        <div class="car-name">
+          <h4>Mini Cooper Works</h4>
+        </div>
+      </div>
+
+      <div class="car-description">
+        <h2>Twoja rezerwacja:</h2>
+
+        <div id="error" class="error"></div>
+
+        <p>Ustal swój dobowy limit km:</p>
+        <div class="range-slider">
+          <span id="rangeValue"></span>
+          <input type="range" class="range" name="" value="0" min="250" max="600">
+        </div>
+
+        <form id="form-reserv">
+          <input type="date" class="form-control" id="pick-date" placeholder="Wybierz termin" required><br>
+          <input type="number" class="day form-control" placeholder="Wybierz ilość dni" min="1" max="30" required><br>
+
+
+          <input class="f-control" id="name" name="name" placeholder="Imię" >
+          <input type="text" class="f-control" id="surname" name="name" placeholder="Nazwisko" ><br>
+          <input class="form-control" id="email" placeholder="e-mail" ><br>
+          <p>Całkowity koszt: <span class="price">590</span> pln brutto</p><br>
+
+          <button type="submit" class="card-button">Potwierdź</button>
+        </form>
+
+
       </div>
     </div>
+  </div>
 
-    <div class="car-description">
-      <h3>Rezerwuj termin</h3>
-      <p>Wybierz datę</p>
-      <p>Dzienny limit km</p>
-      <p>Imię</p>
-      <p>Nazwisko</p>
-      <p>email</p>
-      <p>Cena zmieniająca się ze względu na dane</p>
-      <button class="car-button">Rezerwuj teraz!</button>
-    </div>
+  <div class="confirmation hide">
+    <h2>Witaj <span class="your-name"></span>!<br> Twoja rezerwacja została potwierdzona!</h2>
+
+    <p>Szczegóły zamówienia zostały wysłane na e-mail: "<span class="your-email"></span>"</p>
+    <p class="car-model">Samochód: <span>Mini Cooper Works</span></p>
+    <p>Data odbioru auta: <span class="pick-up-date"></span></p>
+    <p>Twój dobowy limit kilometrów: <span class="day-limit">250</span> km</p>
+    <p>Twoja cena za cały okres najmu: <span class="finished-price"></span> pln brutto</p>
+
+    <h3>Zapraszamy po odbiór auta w wybranym terminie :)</h3>
+    <a href="/"><button class="btn-back">Powrót do strony głównej</button></a>
   </div>
 
   <footer class="footer">
     <div class="bottom-logo">
-      <h1>Premium<span>Drive</span></h1>
+      <a href="/"><h1>Premium<span>Drive</span></h1></a>
       <p>Powered by Kamil - websites ...</p>
     </div>
     <div class="icon-box">
